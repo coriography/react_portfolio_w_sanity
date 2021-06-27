@@ -11,6 +11,7 @@ node_modules
 # production
 /build
 notes.txt
+.vscode/
 
 # misc
 .DS_Store

@@ -35,7 +35,7 @@ export default {
             type: "url",
         },
         {
-            name: "deployed_link",
+            name: "deployedLink",
             type: "url",
         },
         {

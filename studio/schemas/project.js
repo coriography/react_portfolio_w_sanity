@@ -25,8 +25,8 @@ export default {
             type: "string",
             options: {
                 list: [
-                    { value: "personal", title: "Personal"},
-                    { value: "school", title: "School"},
+                    { value: "Personal", title: "Personal"},
+                    { value: "School", title: "School"},
                 ]  
             }
         },
@@ -35,7 +35,7 @@ export default {
             type: "url",
         },
         {
-            name: "deployedLink",
+            name: "deployed_link",
             type: "url",
         },
         {

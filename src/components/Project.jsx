@@ -11,7 +11,9 @@ export default function Project() {
             place,
             description,
             project,
-            link,
+            projectType,
+            deployed_link,
+            code_link,
             tags,
         }`
         )
@@ -24,11 +26,12 @@ export default function Project() {
                 <h1 className="text-5xl flex justify-center mono">My Projects</h1>
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my project page</h2>
                 <section className="grid grid-cols-2 gap-8">
+                    {console.log(projectData)}
                     {projectData && projectData.map((project, index) => (
                     <article className="relative rounded-lg shadow-xl bg-white p-16">
                         <h3 className="text-gray-800 text-3xl font-bold mb-2 hover:text-red-700">
                             <a 
-                            href={project.deployedLink}
+                            href={project.deployed_link}
                             alt={project.title}
                             target="_blank"
                             rel="noopener noreferrer">
@@ -52,7 +55,7 @@ export default function Project() {
                                 {project.description}
                             </p>
                             <a 
-                            href={project.deployedLink}
+                            href={project.deployed_link}
                             rel="noopener noreferrer"
                             target="_blank"
                             className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl">

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { MappingsContext } from "source-list-map";
 import sanityClient from "../client.js";
 import image from "../img/eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg";
 import imageUrlBuilder from "@sanity/image-url";

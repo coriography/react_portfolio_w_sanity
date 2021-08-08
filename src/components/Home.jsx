@@ -1,5 +1,5 @@
 import React from "react"
-import image from "../img/eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg"
+import image from "../img/eberhard-grossgasteiger-NvesrDbsrL4-unsplash.jpg";
 
 export default function Home() {
     return (
